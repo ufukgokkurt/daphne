@@ -59,7 +59,8 @@ return [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
-
+    /* Admin Genel mail - Tüm mailler buraya gelecek */
+    'mail_admin' =>env('MAIL_ADMIN','hello@example.com'),
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol

@@ -155,6 +155,7 @@ return [
          */
         Collective\Html\HtmlServiceProvider::class,
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
         /*
          * Application Service Providers...
          */
