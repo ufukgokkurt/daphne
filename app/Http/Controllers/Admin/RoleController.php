@@ -48,8 +48,8 @@ class RoleController extends AdminController
      */
     public function create()
     {
-        $permissions=Role::permissions();
-        return view('backend.role.add')->with('permissions',$permissions);
+
+        return view('backend.role.add');
     }
 
     /**
@@ -101,8 +101,8 @@ class RoleController extends AdminController
     {
 
         $role = Role::findOrFail($id);
-        $permissions=Role::permissions();
-       return view('backend.role.edit')->with(['role'=>$role,'permissions'=>$permissions]);
+
+       return view('backend.role.edit',compact('role'));
     }
 
     /**

@@ -46,7 +46,7 @@
                                 </label>
 
                                 <div class="col-md-9 col-sm-9 col-xs-12">
-                                   @foreach($permissions as $key=>$value)
+                                   @foreach(config('genel_ayarlar.izinler') as $key=>$value)
                                     <div class="checkbox col-md-4 col-xs-12">
                                         <label>
 

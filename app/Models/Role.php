@@ -13,19 +13,6 @@ class Role extends Model  implements RoleInterface, PermissibleInterface
     use PermissibleTrait;
     use Sluggable;
 
-    /** Admin bölümündeki tüm izinler burada tanımlanıyor */
-   protected function permissions() {
-      return  [
-           'admin.dashboard'=>'Admine Erişim',
-           'user.user'=>'Kullanıcı Yönetimi',
-           'user.role'=>'Kullanıcı Rol Yönetimi',
-           'setting.smtp'=>'Mail Ayarları',
-           'setting.general'=>'Genel  Ayarlar'
-       ];
-   }
-
-
-
     /**
      * {@inheritDoc}
      */

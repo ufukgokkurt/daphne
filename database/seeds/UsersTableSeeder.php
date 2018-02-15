@@ -20,7 +20,7 @@ class UsersTableSeeder extends Seeder
 
         //varsayılan izinler alınıyor
         $permission=[];
-        foreach (Role::permissions() as $key=>$value) {
+        foreach (config('genel_ayarlar.izinler') as $key=>$value) {
             $permission[$key]=true;
         }
 
