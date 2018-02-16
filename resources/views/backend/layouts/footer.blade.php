@@ -1,7 +1,7 @@
 <!-- footer content -->
 <footer>
     <div class="pull-right">
-        Powered by <a href="http://diyezmedia.com/" target="_blank">Diyez</a>
+        Powered by <a href="http://ufukgokkurt.com/" target="_blank">Daphne</a>
     </div>
     <div class="clearfix"></div>
 </footer>
